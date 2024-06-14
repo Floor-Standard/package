@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", (event) => {
     const element = document.getElementById('mikawaya-retail-media-cv');
+    alert("clicked");
     if (element) {
         element.onclick = function () {
             const url = new URL(window.location.href);
